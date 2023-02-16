@@ -47,6 +47,7 @@ import { Messenger } from './components/Messenger';
                               setNome={setNome}
                               setAltura={setAltura}
                               setPeso={setPeso}
+                              setMensagem={setMensagem}
                         />
                   </div>
                         <Messenger 

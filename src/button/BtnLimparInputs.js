@@ -1,12 +1,13 @@
-export const BtnLimparInputs = ({setNome,setAltura,setPeso}) => {
+export const BtnLimparInputs = ({setNome,setAltura,setPeso,setMensagem}) => {
 
 
-       const limparImc = () => {
-             setNome("");
-             setAltura("");
-             setPeso("");
+      const limparImc = () => {
+               setNome("");
+               setAltura("");
+               setPeso("");
+               setMensagem("");
     }
-
+   
 return(
       <button 
             onClick={limparImc}
